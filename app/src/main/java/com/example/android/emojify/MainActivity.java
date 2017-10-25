@@ -230,6 +230,9 @@ public class MainActivity extends AppCompatActivity {
         mClearFab.setVisibility(View.GONE);
 
         // Delete the temporary image file
+
+        //// nu deze local branche naar remote
+
         BitmapUtils.deleteImageFile(this, mTempPhotoPath);
     }
 }
